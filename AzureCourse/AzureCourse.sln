@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messaging", "Messaging", "{A16497FA-005B-4ACF-A684-65A4F05028D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageQueue", "StorageQueue\StorageQueue.csproj", "{4731F13E-6229-4107-B83E-0903DFA0B467}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4731F13E-6229-4107-B83E-0903DFA0B467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4731F13E-6229-4107-B83E-0903DFA0B467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4731F13E-6229-4107-B83E-0903DFA0B467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4731F13E-6229-4107-B83E-0903DFA0B467}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4731F13E-6229-4107-B83E-0903DFA0B467} = {A16497FA-005B-4ACF-A684-65A4F05028D2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A5DCD6A-6093-4897-A068-C490ABA0F0CA}
+	EndGlobalSection
+EndGlobal
