@@ -4,17 +4,17 @@ using System.Text;
 
 class Program
 {
-    private const string STORAGE_ACCOUNT_COMNNECTION_STRING = ""; // Storage Account -> Security -> Access keys
+    private const string STORAGE_ACCOUNT_CONNECTION_STRING = ""; // Storage Account -> Security -> Access keys
     private const string FROM_QUEUE_NAME = "queue-1";
     private const string TO_QUEUE_NAME = "queue-2";
 
     static void Main()
     {
-        var fromQueueClient = new QueueClient(STORAGE_ACCOUNT_COMNNECTION_STRING, FROM_QUEUE_NAME);
-        var toQueueClient = new QueueClient(STORAGE_ACCOUNT_COMNNECTION_STRING, TO_QUEUE_NAME);
-
         try
         {
+            var fromQueueClient = new QueueClient(STORAGE_ACCOUNT_CONNECTION_STRING, FROM_QUEUE_NAME);
+            var toQueueClient = new QueueClient(STORAGE_ACCOUNT_CONNECTION_STRING, TO_QUEUE_NAME);
+
             while (true)
             {
                 QueueMessage[] retrievedMessages = fromQueueClient.ReceiveMessages();
