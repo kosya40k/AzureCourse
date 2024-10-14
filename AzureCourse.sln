@@ -7,9 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messaging", "Messaging", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StorageQueue", "StorageQueue\StorageQueue.csproj", "{4731F13E-6229-4107-B83E-0903DFA0B467}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBus", "ServiceBus\ServiceBus.csproj", "{7819A1DE-11F4-47EF-9647-C37596C9486E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBus", "ServiceBus\ServiceBus.csproj", "{7819A1DE-11F4-47EF-9647-C37596C9486E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusSubscriber", "ServiceBusSubscriber\ServiceBusSubscriber.csproj", "{A9CB8E44-A3D2-4B77-83FC-9BDE5C750511}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBusSubscriber", "ServiceBusSubscriber\ServiceBusSubscriber.csproj", "{A9CB8E44-A3D2-4B77-83FC-9BDE5C750511}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Functions", "Functions", "{3846B35C-284F-40CB-9784-506CCC44926D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureSql", "AzureSql", "{BACBE768-43D6-49CE-A10F-AD623757BFF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureSqlTest", "AzureSqlTest\AzureSqlTest.csproj", "{03F099ED-64DD-4C38-B5FC-DF7D48629C04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +35,10 @@ Global
 		{A9CB8E44-A3D2-4B77-83FC-9BDE5C750511}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9CB8E44-A3D2-4B77-83FC-9BDE5C750511}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9CB8E44-A3D2-4B77-83FC-9BDE5C750511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F099ED-64DD-4C38-B5FC-DF7D48629C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F099ED-64DD-4C38-B5FC-DF7D48629C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F099ED-64DD-4C38-B5FC-DF7D48629C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F099ED-64DD-4C38-B5FC-DF7D48629C04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +47,7 @@ Global
 		{4731F13E-6229-4107-B83E-0903DFA0B467} = {A16497FA-005B-4ACF-A684-65A4F05028D2}
 		{7819A1DE-11F4-47EF-9647-C37596C9486E} = {A16497FA-005B-4ACF-A684-65A4F05028D2}
 		{A9CB8E44-A3D2-4B77-83FC-9BDE5C750511} = {A16497FA-005B-4ACF-A684-65A4F05028D2}
+		{03F099ED-64DD-4C38-B5FC-DF7D48629C04} = {BACBE768-43D6-49CE-A10F-AD623757BFF7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A5DCD6A-6093-4897-A068-C490ABA0F0CA}
