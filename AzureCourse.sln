@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messaging", "Messaging", "{A16497FA-005B-4ACF-A684-65A4F05028D2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureMessaging", "AzureMessaging", "{A16497FA-005B-4ACF-A684-65A4F05028D2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StorageQueue", "StorageQueue\StorageQueue.csproj", "{4731F13E-6229-4107-B83E-0903DFA0B467}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StorageQueue", "AzureMessaging\StorageQueue\StorageQueue.csproj", "{4731F13E-6229-4107-B83E-0903DFA0B467}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBus", "ServiceBus\ServiceBus.csproj", "{7819A1DE-11F4-47EF-9647-C37596C9486E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBus", "AzureMessaging\ServiceBus\ServiceBus.csproj", "{7819A1DE-11F4-47EF-9647-C37596C9486E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBusSubscriber", "ServiceBusSubscriber\ServiceBusSubscriber.csproj", "{A9CB8E44-A3D2-4B77-83FC-9BDE5C750511}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBusSubscriber", "AzureMessaging\ServiceBusSubscriber\ServiceBusSubscriber.csproj", "{A9CB8E44-A3D2-4B77-83FC-9BDE5C750511}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureSql", "AzureSql", "{BACBE768-43D6-49CE-A10F-AD623757BFF7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureSqlTest", "AzureSqlTest\AzureSqlTest.csproj", "{03F099ED-64DD-4C38-B5FC-DF7D48629C04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureSqlTest", "AzureSql\AzureSqlTest\AzureSqlTest.csproj", "{03F099ED-64DD-4C38-B5FC-DF7D48629C04}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureFunctions", "AzureFunctions", "{8656CA16-67D1-42A6-B9C4-7051D0379736}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosTriggerFunction", "CosmosTriggerFunction\CosmosTriggerFunction.csproj", "{F95E9B6E-AD34-43CD-BB30-21178821F9FB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpToBlobFunction", "AzureFunctions\HttpToBlobFunction\HttpToBlobFunction.csproj", "{8ACC18A9-9D6E-404B-AF82-FF9F7EDE63C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{03F099ED-64DD-4C38-B5FC-DF7D48629C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03F099ED-64DD-4C38-B5FC-DF7D48629C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03F099ED-64DD-4C38-B5FC-DF7D48629C04}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F95E9B6E-AD34-43CD-BB30-21178821F9FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F95E9B6E-AD34-43CD-BB30-21178821F9FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F95E9B6E-AD34-43CD-BB30-21178821F9FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F95E9B6E-AD34-43CD-BB30-21178821F9FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ACC18A9-9D6E-404B-AF82-FF9F7EDE63C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ACC18A9-9D6E-404B-AF82-FF9F7EDE63C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ACC18A9-9D6E-404B-AF82-FF9F7EDE63C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ACC18A9-9D6E-404B-AF82-FF9F7EDE63C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,7 +54,7 @@ Global
 		{7819A1DE-11F4-47EF-9647-C37596C9486E} = {A16497FA-005B-4ACF-A684-65A4F05028D2}
 		{A9CB8E44-A3D2-4B77-83FC-9BDE5C750511} = {A16497FA-005B-4ACF-A684-65A4F05028D2}
 		{03F099ED-64DD-4C38-B5FC-DF7D48629C04} = {BACBE768-43D6-49CE-A10F-AD623757BFF7}
-		{F95E9B6E-AD34-43CD-BB30-21178821F9FB} = {8656CA16-67D1-42A6-B9C4-7051D0379736}
+		{8ACC18A9-9D6E-404B-AF82-FF9F7EDE63C3} = {8656CA16-67D1-42A6-B9C4-7051D0379736}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A5DCD6A-6093-4897-A068-C490ABA0F0CA}
