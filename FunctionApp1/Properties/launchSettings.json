@@ -1,8 +1,8 @@
 {
   "profiles": {
-    "CosmosTriggerFunction": {
+    "FunctionApp1": {
       "commandName": "Project",
-      "commandLineArgs": "--port 7042",
+      "commandLineArgs": "--port 7268",
       "launchBrowser": false
     }
   }
