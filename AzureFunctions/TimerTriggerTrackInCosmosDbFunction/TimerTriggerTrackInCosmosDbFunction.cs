@@ -8,8 +8,8 @@ namespace TimerTriggerTrackInCosmosDbFunction
 {
     public class TimerTriggerTrackInCosmosDbFunction
     {
-        private const string ENDPOINT = "https://timetracktest.documents.azure.com:443/";
-        private const string PRIMARY_KEY = "y00gdIP3PJr4mBVjUwLaNuJGsIvK5GaZotcTNrXktqMc9vxxBjD6I3Bn9yZE6Ys0haYntvdwC6ywACDbw52MHw==";
+        private const string ENDPOINT = "";
+        private const string PRIMARY_KEY = "";
         private const string DATABASE_NAME = "timedb";
         private const string CONTAINER_NAME = "timedbcontainer";
 
