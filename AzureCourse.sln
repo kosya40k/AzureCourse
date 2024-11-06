@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureFunctions", "AzureFunc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpToBlobFunction", "AzureFunctions\HttpToBlobFunction\HttpToBlobFunction.csproj", "{8ACC18A9-9D6E-404B-AF82-FF9F7EDE63C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerTriggerTrackInCosmosDbFunction", "AzureFunctions\TimerTriggerTrackInCosmosDbFunction\TimerTriggerTrackInCosmosDbFunction.csproj", "{0E3785BD-FC9C-4793-9E2C-A444CF86B5B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{8ACC18A9-9D6E-404B-AF82-FF9F7EDE63C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8ACC18A9-9D6E-404B-AF82-FF9F7EDE63C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8ACC18A9-9D6E-404B-AF82-FF9F7EDE63C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E3785BD-FC9C-4793-9E2C-A444CF86B5B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E3785BD-FC9C-4793-9E2C-A444CF86B5B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E3785BD-FC9C-4793-9E2C-A444CF86B5B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E3785BD-FC9C-4793-9E2C-A444CF86B5B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{A9CB8E44-A3D2-4B77-83FC-9BDE5C750511} = {A16497FA-005B-4ACF-A684-65A4F05028D2}
 		{03F099ED-64DD-4C38-B5FC-DF7D48629C04} = {BACBE768-43D6-49CE-A10F-AD623757BFF7}
 		{8ACC18A9-9D6E-404B-AF82-FF9F7EDE63C3} = {8656CA16-67D1-42A6-B9C4-7051D0379736}
+		{0E3785BD-FC9C-4793-9E2C-A444CF86B5B8} = {8656CA16-67D1-42A6-B9C4-7051D0379736}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A5DCD6A-6093-4897-A068-C490ABA0F0CA}

@@ -1,8 +1,8 @@
 {
   "profiles": {
-    "FunctionApp1": {
+    "TimerTriggerTrackInCosmosDbFunction": {
       "commandName": "Project",
-      "commandLineArgs": "--port 7268",
+      "commandLineArgs": "--port 7104",
       "launchBrowser": false
     }
   }
